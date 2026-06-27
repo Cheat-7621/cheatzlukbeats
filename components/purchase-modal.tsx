@@ -1,7 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import QRCode from 'qrcode';
+import { useState } from 'react';
 import { X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -17,24 +16,8 @@ interface PurchaseModalProps {
 }
 
 export function PurchaseModal({ isOpen, song, onClose }: PurchaseModalProps) {
-  const [qrCode, setQrCode] = useState<string>('');
   const [copying, setCopying] = useState(false);
-
-  useEffect(() => {
-    if (isOpen && song) {
-      // Generate ABA QR code with payment details
-      const paymentData = `00020701021100061000063011\n6304${(song.price * 100).toString().padStart(4, '0')}5406KHR5802KH63041D4D`;
-
-      QRCode.toDataURL(paymentData, {
-        width: 300,
-        margin: 2,
-        color: {
-          dark: '#000000',
-          light: '#ffffff',
-        },
-      }).then(setQrCode);
-    }
-  }, [isOpen, song]);
+  const [qrError, setQrError] = useState(false);
 
   if (!isOpen || !song) return null;
 
@@ -70,9 +53,20 @@ export function PurchaseModal({ isOpen, song, onClose }: PurchaseModalProps) {
           </div>
         </div>
 
-        {/* QR Code */}
+        {/* QR Code - custom static image, safe fallback */}
         <div className="flex justify-center mb-4 md:mb-6">
-          {qrCode && <img src={qrCode} alt="ABA QR Code" className="w-48 h-48 md:w-64 md:h-64 rounded-lg" />}
+          {!qrError ? (
+            <img
+              src="/yuongsocheat_qr.jpg"
+              alt="ABA QR Code"
+              className="w-48 h-48 md:w-64 md:h-64 rounded-lg object-contain bg-white"
+              onError={() => setQrError(true)}
+            />
+          ) : (
+            <div className="w-48 h-48 md:w-64 md:h-64 rounded-lg bg-white flex items-center justify-center text-xs text-muted-foreground p-4 text-center">
+              QR code unavailable. Please pay using the reference number below.
+            </div>
+          )}
         </div>
 
         {/* Reference Number */}

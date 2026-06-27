@@ -55,7 +55,7 @@ export function HeroSection() {
               style={{ fontFamily: 'Koulen, sans-serif' }}
               className="text-3xl sm:text-4xl lg:text-7xl font-normal text-white mb-2 sm:mb-3 lg:mb-4 text-balance leading-tight tracking-wide flex items-center justify-center gap-2 sm:gap-3 lg:gap-4"
             >
-              ជាតិហ្សុីលក់ BEATS<Music className="w-7 h-7 sm:w-9 sm:h-9 lg:w-14 lg:h-14" />
+              <Music className="w-7 h-7 sm:w-9 sm:h-9 lg:w-14 lg:h-14" />ជាតិហ្សុីលក់ BEATS<Music className="w-7 h-7 sm:w-9 sm:h-9 lg:w-14 lg:h-14" />
             </h1>
             <p className="text-sm sm:text-base lg:text-xl text-gray-200 text-balance px-1 sm:px-2">
               Music is emotion, songs are stories - Music may have no words, yet it can express every emotion - A single song can change a person’s feelings.
