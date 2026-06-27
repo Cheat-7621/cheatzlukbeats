@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+import { Music } from 'lucide-react';
 
 export function HeroSection() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -52,9 +53,10 @@ export function HeroSection() {
           <div className="text-center mb-6 sm:mb-10 lg:mb-12">
             <h1
               style={{ fontFamily: 'Koulen, sans-serif' }}
-              className="text-3xl sm:text-4xl lg:text-7xl font-normal text-white mb-2 sm:mb-3 lg:mb-4 text-balance leading-tight tracking-wide"
+              className="text-3xl sm:text-4xl lg:text-7xl font-normal text-white mb-2 sm:mb-3 lg:mb-4 text-balance leading-tight tracking-wide flex items-center justify-center gap-2 sm:gap-3 lg:gap-4"
             >
-              ជាតិហ្សុីលក់ BEATS!
+              ជាតិហ្សុីលក់ BEATS
+              <Music className="w-7 h-7 sm:w-9 sm:h-9 lg:w-14 lg:h-14" />
             </h1>
             <p className="text-sm sm:text-base lg:text-xl text-gray-200 text-balance px-1 sm:px-2">
               Music is emotion, songs are stories - Music may have no words, yet it can express every emotion - A single song can change a person’s feelings.
@@ -76,7 +78,7 @@ export function HeroSection() {
                 100+
               </div>
               <p className="text-[10px] sm:text-sm lg:text-base text-gray-300 leading-tight">
-                Premium Tracks
+              Tracks
               </p>
             </div>
             <div className="text-center p-1.5 sm:p-4 lg:p-0">
@@ -84,7 +86,7 @@ export function HeroSection() {
                 High Quality
               </div>
               <p className="text-[10px] sm:text-sm lg:text-base text-gray-300 leading-tight">
-                320kbps Audio
+               Audio
               </p>
             </div>
             <div className="text-center p-1.5 sm:p-4 lg:p-0">

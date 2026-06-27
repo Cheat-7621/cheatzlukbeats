@@ -10,7 +10,7 @@ const MOCK_SONGS = [
     {
     id: '004',
     number: '004',
-    title: 'FREE - BEAT (2)',
+    title: 'BEAT (4)',
     releaseDate: 'JUNE 2026',
     type: 'SINGLE, 1 SONG',
     duration: '4 MINUTES 15 SECONDS',
@@ -21,7 +21,7 @@ const MOCK_SONGS = [
   {
     id: '003',
     number: '003',
-    title: 'FREE - BEAT (2)',
+    title: 'BEAT (3)',
     releaseDate: 'JUNE 2026',
     type: 'SINGLE, 1 SONG',
     duration: '4 MINUTES 15 SECONDS',
@@ -32,7 +32,7 @@ const MOCK_SONGS = [
   {
     id: '002',
     number: '002',
-    title: 'FREE - BEAT (1)',
+    title: 'BEAT (2)',
     releaseDate: 'JUNE 2026',
     type: 'SINGLE, 1 SONG',
     duration: '4 MINUTES 30 SECONDS',
@@ -43,7 +43,7 @@ const MOCK_SONGS = [
   {
     id: '001',
     number: '001',
-    title: 'FREE - BEAT',
+    title: 'BEAT (1)',
     releaseDate: 'JUNE 2026',
     type: 'SINGLE, 1 SONG',
     duration: '3 MINUTES 45 SECONDS',
@@ -99,7 +99,7 @@ export default function Home() {
       <section className="py-6 sm:py-12 lg:py-20 px-3 sm:px-4 lg:px-6 pb-24 sm:pb-20 lg:pb-12">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-xl sm:text-2xl lg:text-4xl font-bold text-foreground mb-4 sm:mb-6 lg:mb-8 text-balance">
-            Featured Tracks
+            ARCHIVE RESOURCES
           </h2>
 
           <div className="space-y-2 sm:space-y-3 lg:space-y-4">

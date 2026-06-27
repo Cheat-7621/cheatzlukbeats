@@ -69,14 +69,14 @@ export function SongCard({
           </div>
           <div>
             <p className="text-[10px] sm:text-xs text-muted-foreground uppercase tracking-tight">Price</p>
-            <p className="text-[11px] sm:text-xs lg:text-sm text-accent font-bold">${price.toFixed(2)}</p>
+            <p className="text-[11px] sm:text-xs lg:text-sm text-[#7700ff] font-bold">${price.toFixed(2)}</p>
           </div>
         </div>
         {/* Mobile compact view */}
         <div className="sm:hidden flex items-center gap-2 text-[10px]">
           <span className="text-muted-foreground">{releaseDate}</span>
           <span className="text-muted-foreground">•</span>
-          <span className="text-accent font-bold">${price.toFixed(2)}</span>
+          <span className="text-[#7700ff] font-bold">${price.toFixed(2)}</span>
         </div>
       </div>
 
@@ -93,7 +93,7 @@ export function SongCard({
         </Button>
         <Button
           size="sm"
-          className="gap-1 sm:gap-1.5 bg-accent text-accent-foreground hover:bg-accent/90 h-8 sm:h-9 lg:h-10 px-2 sm:px-3 lg:px-4 text-xs sm:text-sm lg:text-base"
+          className="gap-1 sm:gap-1.5 bg-[#7700ff] text-white hover:bg-[#7700ff]/90 h-8 sm:h-9 lg:h-10 px-2 sm:px-3 lg:px-4 text-xs sm:text-sm lg:text-base"
           onClick={() => onPurchase(id)}
         >
           <ShoppingCart className="w-3 h-3 sm:w-3.5 sm:h-3.5 lg:w-4 lg:h-4" />
