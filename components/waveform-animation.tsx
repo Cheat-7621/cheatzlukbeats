@@ -14,7 +14,7 @@ export function WaveformAnimation() {
               width="60"
               height="100"
               rx="30"
-              fill="#ccff00"
+              fill="#7700ff"
               opacity="0.9"
               className="animate-pulse"
               style={{
