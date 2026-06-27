@@ -10,7 +10,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'SoundMarket - Music Store',
+  title: 'CheatzLukBeats - Music Store',
   description: 'Buy premium digital music with ABA QR payment',
   generator: 'v0.app',
   icons: {
