@@ -19,7 +19,7 @@ export function Navbar() {
       <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet" />
       <nav className="fixed top-0 left-0 right-0 z-40 bg-background/90 backdrop-blur-md border-b border-border">
         <div className="max-w-6xl mx-auto px-3 sm:px-4 lg:px-6 h-14 sm:h-16 flex items-center justify-between gap-3">
-          <a href="/" className="flex items-center gap-2 shrink min-w-0">
+          <a href="/" className="flex items-center gap-2 shrink-0 mr-2">
             <img 
   src="/icon.png" 
   alt="Music Icon" 
