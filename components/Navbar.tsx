@@ -25,7 +25,7 @@ export function Navbar() {
   alt="Music Icon" 
   className="w-[30px] h-[30px] hidden sm:block" 
 />
-            <span className="font-black tracking-widest text-foreground text-[11px] sm:text-base font-mono whitespace-nowrap" style={lang === 'kh' ? { fontFamily: "'Koulen', sans-serif" } : {}}>{t.brand}</span>
+            <span className="font-black tracking-widest text-foreground text-sm sm:text-base font-mono truncate" style={lang === 'kh' ? { fontFamily: "'Koulen', sans-serif" } : {}}>{t.brand}</span>
           </a>
           <div className="flex items-center gap-1 sm:gap-2 shrink-0">
             <div className="relative">
@@ -43,7 +43,7 @@ export function Navbar() {
                 </div></>
               )}
             </div>
-            <button onClick={() => setModalOpen(true)} className={`flex items-center gap-1 sm:gap-1.5 px-2 sm:px-3 py-1 sm:py-1.5 rounded-md text-[10px] sm:text-xs font-mono font-bold tracking-widest transition-all whitespace-nowrap ${user ? 'border border-lime-400/40 text-lime-400 hover:bg-lime-400/10' : 'bg-foreground text-background hover:opacity-90'}`}>
+            <button onClick={() => setModalOpen(true)} className={`flex items-center gap-1 sm:gap-1.5 px-2 sm:px-3 py-1 sm:py-1.5 rounded-md text-xs font-mono font-bold tracking-widest transition-all whitespace-nowrap ${user ? 'border border-lime-400/40 text-lime-400 hover:bg-lime-400/10' : 'bg-foreground text-background hover:opacity-90'}`}>
               {user ? <><User size={12} /><span className="hidden sm:inline max-w-[80px] truncate">{userProfile?.displayName ?? user.displayName ?? 'USER'}</span></> : <><LogIn size={12} />{t.login}</>}
             </button>
           </div>
