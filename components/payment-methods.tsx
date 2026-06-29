@@ -5,73 +5,32 @@ import { CreditCard } from 'lucide-react';
 const PAYMENT_METHODS = [
   {
     name: 'ABA Bank',
-    logo: (
-      <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
-        <rect width="36" height="36" rx="8" fill="#003087" />
-        <text x="18" y="23" textAnchor="middle" fontSize="11" fontWeight="700" fill="#FFD700" fontFamily="sans-serif">ABA</text>
-      </svg>
-    ),
+    logo: 'https://play-lh.googleusercontent.com/O7xMXY5ehCEVwpR0MlKYQOK5QJ1oFIw4EoXQqyt_vgDKT3Uvn1g8FIz_fNDDhWH4Zbdclp54WhRMnI8vzyE9OeU',
   },
   {
     name: 'Bakong KHQR',
-    logo: (
-      <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
-        <rect width="36" height="36" rx="8" fill="#E8001D" />
-        <text x="18" y="15" textAnchor="middle" fontSize="8" fontWeight="700" fill="#fff" fontFamily="sans-serif">BAKONG</text>
-        <text x="18" y="27" textAnchor="middle" fontSize="8" fontWeight="700" fill="#FFD700" fontFamily="sans-serif">KHQR</text>
-      </svg>
-    ),
+    logo: 'https://play-lh.googleusercontent.com/Q27JPO0Plka8m3_-h2yw3Xu22Wedt3NJcxl1NPgMlaI6VRNcmSEPArvAcmnK1_TpmMBUlTsxjS1ycy0rRDFrmA',
   },
   {
     name: 'ACLEDA Bank',
-    logo: (
-      <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
-        <rect width="36" height="36" rx="8" fill="#0068B4" />
-        <text x="18" y="17" textAnchor="middle" fontSize="8" fontWeight="700" fill="#fff" fontFamily="sans-serif">ACLEDA</text>
-        <text x="18" y="28" textAnchor="middle" fontSize="7" fill="#90d0ff" fontFamily="sans-serif">BANK</text>
-      </svg>
-    ),
+    logo: 'https://www.acledabank.com.kh/kh/assets/download_material/download-logo-blue.jpg',
   },
   {
     name: 'Wing Bank',
-    logo: (
-      <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
-        <rect width="36" height="36" rx="8" fill="#FF6B00" />
-        <text x="18" y="17" textAnchor="middle" fontSize="10" fontWeight="700" fill="#fff" fontFamily="sans-serif">WING</text>
-        <text x="18" y="28" textAnchor="middle" fontSize="7" fill="#ffe5c7" fontFamily="sans-serif">BANK</text>
-      </svg>
-    ),
+    logo: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5d/ea/bc/5deabc8c-4916-4b2f-906c-05b5ada70538/Placeholder.mill/400x400bb-75.webp',
   },
   {
     name: 'Canadia Bank',
-    logo: (
-      <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
-        <rect width="36" height="36" rx="8" fill="#1A3C6B" />
-        <text x="18" y="16" textAnchor="middle" fontSize="7" fontWeight="700" fill="#C8A951" fontFamily="sans-serif">CANADIA</text>
-        <text x="18" y="27" textAnchor="middle" fontSize="7" fill="#a0b8d8" fontFamily="sans-serif">BANK</text>
-      </svg>
-    ),
+    logo: 'https://hrincjobs-pro.s3.amazonaws.com/media/public/filer_public/e9/72/e97240fd-c1ba-49fb-9f5e-59f20bc92212/canadiaa.jpg',
   },
   {
     name: 'Vattanac Bank',
-    logo: (
-      <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
-        <rect width="36" height="36" rx="8" fill="#8B0000" />
-        <text x="18" y="16" textAnchor="middle" fontSize="6.5" fontWeight="700" fill="#FFD700" fontFamily="sans-serif">VATTANAC</text>
-        <text x="18" y="27" textAnchor="middle" fontSize="7" fill="#ffaaaa" fontFamily="sans-serif">BANK</text>
-      </svg>
-    ),
+    logo: 'https://play-lh.googleusercontent.com/27_HIIuncArt6Splsyu1ede2SURGQXIdf-l_IqDyjm6fuVmjGCrPWV8butv1ojz4wxf3NQLekrS0q3yBr2VeKg',
   },
   {
     name: 'Prince Bank',
-    logo: (
-      <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
-        <rect width="36" height="36" rx="8" fill="#5B2D8E" />
-        <text x="18" y="16" textAnchor="middle" fontSize="8" fontWeight="700" fill="#fff" fontFamily="sans-serif">PRINCE</text>
-        <text x="18" y="27" textAnchor="middle" fontSize="7" fill="#d4b8f0" fontFamily="sans-serif">BANK</text>
-      </svg>
-    ),
-  },
+    logo: 'https://media.licdn.com/dms/image/v2/D560BAQFx66uzFSDBzw/company-logo_200_200/company-logo_200_200/0/1689566127844/prince_bank_logo?e=2147483647&v=beta&t=W99HaZMq1oQHEOywL8aB_Z6PpqBz7E7-O01LqW0UwXY',
+  }
 ];
 
 export function PaymentMethods() {
@@ -81,10 +40,10 @@ export function PaymentMethods() {
       <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet" />
 
       <div className="max-w-6xl mx-auto text-center">
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-lime-400/30 bg-lime-400/5 text-lime-400 text-xs font-semibold tracking-wide mb-5">
-          <CreditCard className="w-3.5 h-3.5" />
-          PAYMENTS SUPPORTED
-        </div>
+<div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#7700ff]/30 bg-[#7700ff]/5 text-[#7700ff] text-xs font-semibold tracking-wide mb-5">
+  <CreditCard className="w-3.5 h-3.5" />
+  PAYMENTS SUPPORTED
+</div>
 
         <h2
           className="text-xl sm:text-2xl lg:text-3xl font-bold text-foreground mb-2"
@@ -107,15 +66,34 @@ export function PaymentMethods() {
           <div
             className="flex gap-3 w-max"
             style={{ animation: 'marquee-slide 18s linear infinite' }}
-            onMouseEnter={e => (e.currentTarget.style.animationPlayState = 'paused')}
-            onMouseLeave={e => (e.currentTarget.style.animationPlayState = 'running')}
+            onMouseEnter={(e) => (e.currentTarget.style.animationPlayState = 'paused')}
+            onMouseLeave={(e) => (e.currentTarget.style.animationPlayState = 'running')}
           >
             {[...PAYMENT_METHODS, ...PAYMENT_METHODS].map(({ name, logo }, i) => (
               <div
                 key={`${name}-${i}`}
                 className="flex items-center gap-2.5 px-4 py-2.5 rounded-xl bg-zinc-900/80 border border-purple-500/20 hover:border-lime-400/40 transition-colors flex-shrink-0"
               >
-                {logo}
+                <img
+                  src={logo}
+                  alt={name}
+                  width={36}
+                  height={36}
+                  className="rounded-lg object-contain flex-shrink-0"
+                  loading="lazy"
+                  onError={(e) => {
+                    e.currentTarget.onerror = null;
+                    e.currentTarget.src =
+                      'data:image/svg+xml;utf8,' +
+                      encodeURIComponent(
+                        `<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><rect width="36" height="36" rx="8" fill="#27272a"/><text x="18" y="22" text-anchor="middle" font-size="10" font-weight="700" fill="#a3e635" font-family="sans-serif">${name
+                          .split(' ')
+                          .map((w) => w[0])
+                          .join('')
+                          .slice(0, 3)}</text></svg>`
+                      );
+                  }}
+                />
                 <span className="text-sm font-medium text-white whitespace-nowrap">{name}</span>
               </div>
             ))}
