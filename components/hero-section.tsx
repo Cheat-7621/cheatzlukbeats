@@ -92,7 +92,7 @@ export function HeroSection() {
             </div>
             <div className="text-center p-1.5 sm:p-4 lg:p-0">
               <div className="text-base sm:text-2xl lg:text-4xl font-bold text-[#ccff00] mb-1 lg:mb-2 whitespace-nowrap">
-                ABA QR
+                QR
               </div>
               <p className="text-[10px] sm:text-sm lg:text-base text-gray-300 leading-tight">
                 Easy Payment
