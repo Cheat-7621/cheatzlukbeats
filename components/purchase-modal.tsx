@@ -54,7 +54,7 @@ export function PurchaseModal({ isOpen, song, onClose }: PurchaseModalProps) {
 
         {/* Header */}
         <h2 className="text-xl md:text-2xl font-bold text-foreground mb-1 md:mb-2 pr-8">Complete Purchase</h2>
-        <p className="text-xs md:text-sm text-muted-foreground mb-4 md:mb-6">Scan with ABA Mobile Banking</p>
+        <p className="text-xs md:text-sm text-muted-foreground mb-4 md:mb-6">Scan one QR for all banks, including ABA, ACLEDA, and other institutions</p>
 
         {/* Song Info */}
         <div className="bg-muted rounded-lg p-3 md:p-4 mb-4 md:mb-6">
@@ -103,7 +103,7 @@ export function PurchaseModal({ isOpen, song, onClose }: PurchaseModalProps) {
         {/* Instructions */}
         <div className="bg-muted rounded-lg p-3 md:p-4 mb-4 md:mb-6 text-xs md:text-sm text-muted-foreground">
           <ol className="list-decimal list-inside space-y-1 md:space-y-2">
-            <li>Open ABA Mobile Banking app</li>
+            <li>Open Banking app</li>
             <li>Tap QR Code to scan this code</li>
             <li>Confirm payment details and proceed</li>
             <li>Include reference number in payment note</li>
@@ -120,7 +120,7 @@ export function PurchaseModal({ isOpen, song, onClose }: PurchaseModalProps) {
             onClick={handleDone}
             className="flex-1 text-xs md:text-sm bg-accent text-accent-foreground hover:bg-accent/90"
           >
-            Done
+           Done
           </Button>
         </div>
       </div>

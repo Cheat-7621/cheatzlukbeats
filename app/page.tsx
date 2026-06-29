@@ -120,7 +120,7 @@ const MOCK_SONGS = [
 const FOOTER_INFO = [
   {
     title: 'About Cheatzlukbeats',
-    body: 'Your gateway to premium digital music with secure ABA payments for Cambodia.',
+    body: 'Elevate your sound with premium digital music. Fast, secure, and built for Cambodia\'s digital wallet ecosystem.',
   },
   {
     title: 'Payment',
@@ -128,7 +128,7 @@ const FOOTER_INFO = [
   },
   {
     title: 'Support',
-    body: 'For issues or questions, contact support@soundmarket.kh',
+    body: 'For issues or questions, contact support@ysccheatz',
   },
 ];
 
