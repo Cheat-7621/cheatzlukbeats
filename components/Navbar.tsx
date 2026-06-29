@@ -19,15 +19,15 @@ export function Navbar() {
       <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet" />
       <nav className="fixed top-0 left-0 right-0 z-40 bg-background/90 backdrop-blur-md border-b border-border">
         <div className="max-w-6xl mx-auto px-3 sm:px-4 lg:px-6 h-14 sm:h-16 flex items-center justify-between gap-3">
-          <a href="/" className="flex items-center gap-2 shrink-0">
+          <a href="/" className="flex items-center gap-2 shrink min-w-0">
             <img 
   src="/icon.png" 
   alt="Music Icon" 
   className="w-[30px] h-[30px] hidden sm:block" 
 />
-            <span className="font-black tracking-widest text-foreground text-sm sm:text-base font-mono" style={lang === 'kh' ? { fontFamily: "'Koulen', sans-serif" } : {}}>{t.brand}</span>
+            <span className="font-black tracking-widest text-foreground text-sm sm:text-base font-mono whitespace-nowrap" style={lang === 'kh' ? { fontFamily: "'Koulen', sans-serif" } : {}}>{t.brand}</span>
           </a>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1 sm:gap-2 shrink-0">
             <div className="relative">
               <button onClick={() => setLangOpen(!langOpen)} className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-md text-xs font-mono font-semibold tracking-widest text-muted-foreground hover:text-foreground hover:bg-accent transition-all border border-transparent hover:border-border">
                 <Globe size={13} /><span>{t.langLabel}</span>
@@ -43,7 +43,7 @@ export function Navbar() {
                 </div></>
               )}
             </div>
-            <button onClick={() => setModalOpen(true)} className={`flex items-center gap-1 sm:gap-1.5 px-2 sm:px-3 py-1 sm:py-1.5 rounded-md text-[10px] sm:text-xs font-mono font-bold tracking-widest transition-all whitespace-nowrap ${user ? 'border border-lime-400/40 text-lime-400 hover:bg-lime-400/10' : 'bg-foreground text-background hover:opacity-90'}`}>
+            <button onClick={() => setModalOpen(true)} className={`flex items-center gap-1 sm:gap-1.5 px-2 sm:px-3 py-1 sm:py-1.5 rounded-md text-xs font-mono font-bold tracking-widest transition-all whitespace-nowrap ${user ? 'border border-lime-400/40 text-lime-400 hover:bg-lime-400/10' : 'bg-foreground text-background hover:opacity-90'}`}>
               {user ? <><User size={12} /><span className="hidden sm:inline max-w-[80px] truncate">{userProfile?.displayName ?? user.displayName ?? 'USER'}</span></> : <><LogIn size={12} />{t.login}</>}
             </button>
           </div>
