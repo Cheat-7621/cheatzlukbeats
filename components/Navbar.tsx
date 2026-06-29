@@ -30,7 +30,7 @@ export function Navbar() {
           <div className="flex items-center gap-1 sm:gap-2 shrink-0">
             <div className="relative">
               <button onClick={() => setLangOpen(!langOpen)} className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-md text-xs font-mono font-semibold tracking-widest text-muted-foreground hover:text-foreground hover:bg-accent transition-all border border-transparent hover:border-border">
-                <Globe size={13} /><span>{t.langLabel}</span>
+                <Globe size={13} className="shrink-0" /><span>{t.langLabel}</span>
               </button>
               {langOpen && (
                 <><div className="fixed inset-0 z-10" onClick={() => setLangOpen(false)} />
