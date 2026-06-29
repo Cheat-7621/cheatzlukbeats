@@ -25,7 +25,7 @@ export function Navbar() {
   alt="Music Icon" 
   className="w-[30px] h-[30px] hidden sm:block" 
 />
-            <span className="font-black tracking-widest text-foreground text-sm sm:text-base font-mono truncate" style={lang === 'kh' ? { fontFamily: "'Koulen', sans-serif" } : {}}>{t.brand}</span>
+            <span className="font-black tracking-widest text-foreground text-sm sm:text-base font-mono whitespace-nowrap" style={lang === 'kh' ? { fontFamily: "'Koulen', sans-serif" } : {}}>{t.brand}</span>
           </a>
           <div className="flex items-center gap-1 sm:gap-2 shrink-0">
             <div className="relative">
