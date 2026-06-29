@@ -1,25 +1,26 @@
 'use client';
 import { useState } from 'react';
-import { Globe, User, LogIn } from 'lucide-react';
+import { useRouter } from 'next/navigation';
+import { Search, User, LogIn } from 'lucide-react';
 import { useAuth } from '@/context/AuthContext';
 import { AuthModal } from '@/components/AuthModal';
 
-const TRANSLATIONS = {
-  en: { brand: 'CHEATZLUKBEATS.ONLINE', login: 'LOG IN', langLabel: 'EN' },
-  kh: { brand: 'ចេតស្លូកប៊ីត', login: 'ចូលគណនី', langLabel: 'ខ្មែរ' },
-} as const;
-type Lang = keyof typeof TRANSLATIONS;
-
 export function Navbar() {
   const { user, userProfile } = useAuth();
-  const [lang, setLang] = useState<Lang>('en');
-  const [langOpen, setLangOpen] = useState(false);
+  const router = useRouter();
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [query, setQuery] = useState('');
   const [modalOpen, setModalOpen] = useState(false);
-  const t = TRANSLATIONS[lang];
+
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!query.trim()) return;
+    router.push(`/search?q=${encodeURIComponent(query.trim())}`);
+    setSearchOpen(false);
+  };
 
   return (
     <>
-      <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet" />
       <nav className="fixed top-0 left-0 right-0 z-40 bg-background/90 backdrop-blur-md border-b border-border">
         <div className="max-w-6xl mx-auto px-3 sm:px-4 lg:px-6 h-14 sm:h-16 flex items-center justify-between gap-3">
           <a href="/" className="flex items-center gap-2 min-w-0 flex-1">
@@ -28,36 +29,36 @@ export function Navbar() {
               alt="Music Icon"
               className="w-[30px] h-[30px] hidden sm:block shrink-0"
             />
-            <span
-              className="font-black tracking-widest text-foreground text-sm sm:text-base font-mono truncate"
-              style={lang === 'kh' ? { fontFamily: "'Koulen', sans-serif" } : {}}
-            >
-              {t.brand}
+            <span className="font-black tracking-widest text-foreground text-sm sm:text-base font-mono truncate">
+              CHEATZLUKBEATS.ONLINE
             </span>
           </a>
 
           <div className="flex items-center gap-1 sm:gap-2 shrink-0">
             <div className="relative">
               <button
-                onClick={() => setLangOpen(!langOpen)}
+                onClick={() => setSearchOpen(!searchOpen)}
+                aria-label="Search beats"
                 className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-md text-xs font-mono font-semibold tracking-widest text-muted-foreground hover:text-foreground hover:bg-accent transition-all border border-transparent hover:border-border"
               >
-                <Globe size={13} /><span>{t.langLabel}</span>
+                <Search size={14} />
               </button>
-              {langOpen && (
+              {searchOpen && (
                 <>
-                  <div className="fixed inset-0 z-10" onClick={() => setLangOpen(false)} />
-                  <div className="absolute right-0 top-full mt-1 z-20 bg-background border border-border rounded-md shadow-lg overflow-hidden min-w-[130px]">
-                    {(['en', 'kh'] as Lang[]).map((l) => (
-                      <button
-                        key={l}
-                        onClick={() => { setLang(l); setLangOpen(false); }}
-                        className={`w-full text-left px-3 py-2 text-xs font-semibold tracking-wide transition-colors hover:bg-accent ${lang === l ? 'text-foreground bg-accent' : 'text-muted-foreground'}`}
-                      >
-                        {l === 'en' ? '🇬🇧  English' : '🇰🇭  ភាសាខ្មែរ'}
-                      </button>
-                    ))}
-                  </div>
+                  <div className="fixed inset-0 z-10" onClick={() => setSearchOpen(false)} />
+                  <form
+                    onSubmit={handleSearch}
+                    className="absolute right-0 top-full mt-1 z-20 bg-background border border-border rounded-md shadow-lg overflow-hidden w-56 sm:w-64 flex items-center"
+                  >
+                    <Search size={14} className="ml-3 text-muted-foreground shrink-0" />
+                    <input
+                      autoFocus
+                      value={query}
+                      onChange={(e) => setQuery(e.target.value)}
+                      placeholder="Search beats..."
+                      className="w-full bg-transparent px-2 py-2.5 text-xs font-mono text-foreground placeholder:text-muted-foreground outline-none"
+                    />
+                  </form>
                 </>
               )}
             </div>
@@ -73,7 +74,7 @@ export function Navbar() {
                 </>
               ) : (
                 <>
-                  <LogIn size={12} />{t.login}
+                  <LogIn size={12} />LOG IN
                 </>
               )}
             </button>
