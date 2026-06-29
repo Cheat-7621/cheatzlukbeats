@@ -49,7 +49,7 @@ export function PaymentMethods() {
           className="text-lg sm:text-xl lg:text-3xl font-bold text-foreground mb-2 px-2"
           style={{ fontFamily: "'Koulen', sans-serif" }}
         >
-          ទទួលយកការទូទាត់ប្រាក់ពីគ្រប់ធនាគារធំៗនៅក្នុងប្រទេសកម្ពុជា!
+          ទទួលការទូទាត់ប្រាក់ពីគ្រប់ធនាគារធំៗនៅក្នុងប្រទេសកម្ពុជា!
         </h2>
         <p className="text-muted-foreground text-[11px] sm:text-xs lg:text-sm mb-6 sm:mb-7 px-2">
           One QR. Every wallet. Powered by Bakong KHQR &amp; ABA PayWay.
