@@ -1,7 +1,9 @@
 'use client';
 
 import { useState } from 'react';
+import { Navbar } from '@/components/Navbar';
 import { HeroSection } from '@/components/hero-section';
+import { PaymentMethods } from '@/components/payment-methods';
 import { SongCard } from '@/components/song-card';
 import { PurchaseModal } from '@/components/purchase-modal';
 import { AudioPlayer } from '@/components/audio-player';
@@ -156,7 +158,9 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-background">
+       <Navbar />
       <HeroSection />
+      <PaymentMethods />
 
       <section className="py-6 sm:py-12 lg:py-20 px-3 sm:px-4 lg:px-6 pb-24 sm:pb-20 lg:pb-12">
         <div className="max-w-6xl mx-auto">

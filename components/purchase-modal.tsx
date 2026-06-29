@@ -32,9 +32,9 @@ export function PurchaseModal({ isOpen, song, onClose }: PurchaseModalProps) {
   const handleDone = () => {
     const message =
      `Hello! I would like to confirm my purchase of "${song.title}" ($${song.price.toFixed(2)}).\n` +
-    `Reference: ${reference}\n` +
-    `I have completed the ABA payment, please send me the download link.\n` +
-    `(Please attach the payment screenshot together with this message)`;
+    `- Reference: ${reference}\n` +
+    `- I have completed the ABA or ... payment, please send me the download link.\n` +
+    `-> NOTE: Please attach the payment screenshot together with this message. Thank you!`;
 
     const telegramUrl = `https://t.me/ysccheatz?text=${encodeURIComponent(message)}`;
     window.open(telegramUrl, '_blank');
