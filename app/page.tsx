@@ -64,7 +64,7 @@ const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '4 MINUTES 27 SECONDS',
     price: 0.25,
-    coverUrl: '/cover-3.png',
+    coverUrl: '/lg2.png',
     audioUrl: '/music/beat-5.mp3', 
   },
     {
@@ -75,7 +75,7 @@ const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '4 MINUTES 22 SECONDS',
     price: 0.25,
-    coverUrl: '/cover-3.png',
+    coverUrl: '/lg2.png',
     audioUrl: '/music/beat-6.mp3', 
   },
       {
@@ -86,7 +86,7 @@ const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '4 MINUTES 10 SECONDS',
     price: 0.25,
-    coverUrl: '/cover-3.png',
+    coverUrl: '/lg2.png',
     audioUrl: '/music/beat-7.mp3', 
   },
         {
@@ -97,7 +97,7 @@ const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '4 MINUTES 14 SECONDS',
     price: 0.25,
-    coverUrl: '/cover-3.png',
+    coverUrl: '/lg2.png',
     audioUrl: '/music/beat-8.mp3', 
   },
           {
@@ -108,7 +108,7 @@ const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '5 MINUTES 00 SECONDS',
     price: 0.25,
-    coverUrl: '/cover-3.png',
+    coverUrl: '/lg2.png',
     audioUrl: '/music/beat-9.mp3', 
   },
   
