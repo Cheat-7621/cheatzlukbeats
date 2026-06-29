@@ -52,7 +52,7 @@ export function PaymentMethods() {
           ទទួលការទូទាត់ប្រាក់ពីគ្រប់ធនាគារធំៗនៅក្នុងប្រទេសកម្ពុជា!
         </h2>
         <p className="text-muted-foreground text-[11px] sm:text-xs lg:text-sm mb-6 sm:mb-7 px-2">
-          One QR. Every wallet. Powered by Bakong KHQR &amp; ABA PayWay.
+          Scan one QR for all banks, including ABA, ACLEDA, and other institutions. ស្កេន QR តែមួយ ប្រើបានគ្រប់ធនាគារ ដូចជា ABA, ACLEDA និងស្ថាប័នដទៃទៀត។
         </p>
 
         {/* Marquee wrapper */}
