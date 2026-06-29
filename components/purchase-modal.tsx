@@ -53,7 +53,7 @@ export function PurchaseModal({ isOpen, song, onClose }: PurchaseModalProps) {
         </button>
 
         {/* Header */}
-        <h2 className="text-xl md:text-2xl font-bold text-foreground mb-1 md:mb-2 pr-8">Complete Purchase</h2>
+        {/* <h2 className="text-xl md:text-2xl font-bold text-foreground mb-1 md:mb-2 pr-8">Complete Purchase</h2> */}
         <p className="text-xs md:text-sm text-muted-foreground mb-4 md:mb-6">Scan one QR for all banks, including ABA, ACLEDA, and other institutions</p>
 
         {/* Song Info */}
