@@ -53,7 +53,7 @@ export function PurchaseModal({ isOpen, song, onClose }: PurchaseModalProps) {
         </button>
 
         {/* Header */}
-        {/* <h2 className="text-xl md:text-2xl font-bold text-foreground mb-1 md:mb-2 pr-8">Complete Purchase</h2> */}
+        <h2 className="text-xl md:text-2xl font-bold text-foreground mb-1 md:mb-2 pr-8">Complete Purchase</h2>
         <p className="text-xs md:text-sm text-muted-foreground mb-4 md:mb-6">Scan one QR for all banks, including ABA, ACLEDA, and other institutions</p>
 
         {/* Song Info */}
@@ -102,13 +102,12 @@ export function PurchaseModal({ isOpen, song, onClose }: PurchaseModalProps) {
 
         {/* Instructions */}
         <div className="bg-muted rounded-lg p-3 md:p-4 mb-4 md:mb-6 text-xs md:text-sm text-muted-foreground">
-          <ol className="list-decimal list-inside space-y-1 md:space-y-2">
-            <li>Open Banking app</li>
+        
+            {/* <li>Open Banking app</li>
             <li>Tap QR Code to scan this code</li>
             <li>Confirm payment details and proceed</li>
-            <li>Include reference number in payment note</li>
-            <li>Tap Done to send proof on Telegram for your download</li>
-          </ol>
+            <li>Include reference number in payment note</li> */}
+            <p>NOTE : Tap Done to send proof on Telegram for your download</p>
         </div>
 
         {/* Buttons */}
