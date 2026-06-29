@@ -6,40 +6,10 @@ import { SongCard } from '@/components/song-card';
 import { PurchaseModal } from '@/components/purchase-modal';
 import { AudioPlayer } from '@/components/audio-player';
 
+// ការប្រើប្រាស់ Path ផ្ទាល់ពី public/music/
 const MOCK_SONGS = [
-    {
-    id: '004',
-    number: '004',
-    title: 'BEAT (4)',
-    releaseDate: 'JUNE 2026',
-    type: 'SINGLE, 1 SONG',
-    duration: '4 MINUTES 15 SECONDS',
-    price: 0.25,
-    coverUrl: '/cover-2.png',
-    audioUrl: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%28FREE%29%20-%20BEAT%20%282%29-EJPRlTwphRPZf8tOj91GEbv6s3bSx9.mp3',
-  },
-  {
-    id: '003',
-    number: '003',
-    title: 'BEAT (3)',
-    releaseDate: 'JUNE 2026',
-    type: 'SINGLE, 1 SONG',
-    duration: '4 MINUTES 15 SECONDS',
-    price: 0.25,
-    coverUrl: '/cover-2.png',
-    audioUrl: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%28FREE%29%20-%20BEAT%20%282%29-EJPRlTwphRPZf8tOj91GEbv6s3bSx9.mp3',
-  },
-  {
-    id: '002',
-    number: '002',
-    title: 'BEAT (2)',
-    releaseDate: 'JUNE 2026',
-    type: 'SINGLE, 1 SONG',
-    duration: '4 MINUTES 30 SECONDS',
-    price: 1.99,
-    coverUrl: '/cover-2.png',
-    audioUrl: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%28FREE%29%20-%20BEAT%20%281%29-rY4wmC2jslvjIMoGJST8t234qtKxMs.mp3',
-  },
+   
+  // ALBUMS-1
   {
     id: '001',
     number: '001',
@@ -47,15 +17,107 @@ const MOCK_SONGS = [
     releaseDate: 'JUNE 2026',
     type: 'SINGLE, 1 SONG',
     duration: '3 MINUTES 45 SECONDS',
-    price: 1.99,
-    coverUrl: '/cover-2.png',
-    audioUrl: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%28FREE%29%20-%20BEAT-HcPNweCb5cp85jNPTk9Bc1AnArEAWY.mp3',
+    price: 0.25,
+    coverUrl: '/lg1.png',
+    audioUrl: '/music/beat-1.mp3', // ត្រូវប្រាកដថាឈ្មោះ File ក្នុង Folder ត្រូវគ្នា
   },
+    {
+    id: '002',
+    number: '002',
+    title: 'BEAT (2)',
+    releaseDate: 'JUNE 2026',
+    type: 'SINGLE, 1 SONG',
+    duration: '4 MINUTES 20 SECONDS',
+    price: 0.25,
+    coverUrl: '/lg1.png',
+    audioUrl: '/music/beat-2.mp3', 
+  },
+      {
+    id: '003',
+    number: '003',
+    title: 'BEAT (3)',
+    releaseDate: 'JUNE 2026',
+    type: 'SINGLE, 1 SONG',
+    duration: '4 MINUTES 20 SECONDS',
+    price: 0.25,
+    coverUrl: '/lg1.png',
+    audioUrl: '/music/beat-3.mp3', 
+  },
+        {
+    id: '004',
+    number: '004',
+    title: 'BEAT (4)',
+    releaseDate: 'JUNE 2026',
+    type: 'SINGLE, 1 SONG',
+    duration: '3 MINUTES 18 SECONDS',
+    price: 0.25,
+    coverUrl: '/lg1.png',
+    audioUrl: '/music/beat-4.mp3', 
+  },
+
+   // ALBUMS-2
+  {
+    id: '005',
+    number: '005',
+    title: 'BEAT (5)',
+    releaseDate: 'JUNE 2026',
+    type: 'SINGLE, 1 SONG',
+    duration: '4 MINUTES 27 SECONDS',
+    price: 0.25,
+    coverUrl: '/cover-3.png',
+    audioUrl: '/music/beat-5.mp3', 
+  },
+    {
+    id: '006',
+    number: '006',
+    title: 'BEAT (6)',
+    releaseDate: 'JUNE 2026',
+    type: 'SINGLE, 1 SONG',
+    duration: '4 MINUTES 22 SECONDS',
+    price: 0.25,
+    coverUrl: '/cover-3.png',
+    audioUrl: '/music/beat-6.mp3', 
+  },
+      {
+    id: '007',
+    number: '007',
+    title: 'BEAT (7)',
+    releaseDate: 'JUNE 2026',
+    type: 'SINGLE, 1 SONG',
+    duration: '4 MINUTES 10 SECONDS',
+    price: 0.25,
+    coverUrl: '/cover-3.png',
+    audioUrl: '/music/beat-7.mp3', 
+  },
+        {
+    id: '008',
+    number: '008',
+    title: 'BEAT (8)',
+    releaseDate: 'JUNE 2026',
+    type: 'SINGLE, 1 SONG',
+    duration: '4 MINUTES 14 SECONDS',
+    price: 0.25,
+    coverUrl: '/cover-3.png',
+    audioUrl: '/music/beat-8.mp3', 
+  },
+          {
+    id: '009',
+    number: '009',
+    title: 'BEAT (9)',
+    releaseDate: 'JUNE 2026',
+    type: 'SINGLE, 1 SONG',
+    duration: '5 MINUTES 00 SECONDS',
+    price: 0.25,
+    coverUrl: '/cover-3.png',
+    audioUrl: '/music/beat-9.mp3', 
+  },
+  
+  
 ];
 
 const FOOTER_INFO = [
   {
-    title: 'About SoundMarket',
+    title: 'About Cheatzlukbeats',
     body: 'Your gateway to premium digital music with secure ABA payments for Cambodia.',
   },
   {
