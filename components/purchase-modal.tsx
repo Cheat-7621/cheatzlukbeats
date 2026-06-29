@@ -21,15 +21,23 @@ export function PurchaseModal({ isOpen, song, onClose }: PurchaseModalProps) {
 
   if (!isOpen || !song) return null;
 
+  const reference = `CHEATZLUKBEATS-${song.id.toUpperCase()}`;
+
   const handleCopyReference = () => {
-    const reference = `SOUNDMARKET-${song.id.toUpperCase()}-${Date.now()}`;
     navigator.clipboard.writeText(reference);
     setCopying(true);
     setTimeout(() => setCopying(false), 2000);
   };
 
   const handleDone = () => {
-    window.open('https://t.me/ysccheatz', '_blank', 'noopener,noreferrer');
+    const message =
+     `Hello! I would like to confirm my purchase of "${song.title}" ($${song.price.toFixed(2)}).\n` +
+    `Reference: ${reference}\n` +
+    `I have completed the ABA payment, please send me the download link.\n` +
+    `(Please attach the payment screenshot together with this message)`;
+
+    const telegramUrl = `https://t.me/ysccheatz?text=${encodeURIComponent(message)}`;
+    window.open(telegramUrl, '_blank');
     onClose();
   };
 
@@ -79,7 +87,7 @@ export function PurchaseModal({ isOpen, song, onClose }: PurchaseModalProps) {
           <p className="text-xs md:text-xs text-muted-foreground mb-2">Reference Number (Send with payment):</p>
           <div className="flex gap-2">
             <code className="flex-1 text-xs md:text-sm font-mono bg-background p-2 rounded text-accent break-all">
-              CHEATZLUKBEATS-{song.id.toUpperCase()}
+              {reference}
             </code>
             <Button
               variant="ghost"
@@ -99,7 +107,7 @@ export function PurchaseModal({ isOpen, song, onClose }: PurchaseModalProps) {
             <li>Tap QR Code to scan this code</li>
             <li>Confirm payment details and proceed</li>
             <li>Include reference number in payment note</li>
-            <li>Your song will download after payment confirms</li>
+            <li>Tap Done to send proof on Telegram for your download</li>
           </ol>
         </div>
 
