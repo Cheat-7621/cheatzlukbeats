@@ -28,6 +28,11 @@ export function PurchaseModal({ isOpen, song, onClose }: PurchaseModalProps) {
     setTimeout(() => setCopying(false), 2000);
   };
 
+  const handleDone = () => {
+    window.open('https://t.me/ysccheatz', '_blank', 'noopener,noreferrer');
+    onClose();
+  };
+
   return (
     <div className="fixed inset-0 z-50 bg-black/50 flex items-end md:items-center justify-center p-4">
       <div className="bg-card border border-border rounded-t-lg md:rounded-lg max-w-md w-full p-4 md:p-6 relative max-h-[90vh] overflow-y-auto">
@@ -104,7 +109,7 @@ export function PurchaseModal({ isOpen, song, onClose }: PurchaseModalProps) {
             Cancel
           </Button>
           <Button
-            onClick={onClose}
+            onClick={handleDone}
             className="flex-1 text-xs md:text-sm bg-accent text-accent-foreground hover:bg-accent/90"
           >
             Done
