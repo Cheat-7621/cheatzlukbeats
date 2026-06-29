@@ -37,7 +37,7 @@ export function AuthModal({ isOpen, onClose }: AuthModalProps) {
       <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
         <div className="relative w-full max-w-sm bg-zinc-950 border border-zinc-800 rounded-2xl shadow-2xl overflow-hidden" onClick={e => e.stopPropagation()}>
           <div className="flex items-center justify-between px-5 pt-5 pb-4 border-b border-zinc-800">
-            <div className="flex items-center gap-2"><Music2 size={16} style={{ color: '#7700ff' }} /><span className="font-mono font-black tracking-widest text-sm text-white">CHEATZLUKBEATS</span></div>
+            <div className="flex items-center gap-2"><span className="font-mono font-black tracking-widest text-sm text-white">CHEATZLUKBEATS</span></div>
             <button onClick={onClose} className="p-1.5 rounded-lg text-zinc-500 hover:text-white hover:bg-zinc-800 transition-colors"><X size={16} /></button>
           </div>
           {user ? (
@@ -54,7 +54,7 @@ export function AuthModal({ isOpen, onClose }: AuthModalProps) {
             <div className="px-5 py-5">
               <div className="flex rounded-xl bg-zinc-900 p-1 mb-5">
                 {(['login', 'register'] as Tab[]).map((t) => (
-                  <button key={t} onClick={() => { setTab(t); resetForm(); }} className={`flex-1 flex items-center justify-center gap-1.5 py-2 rounded-lg text-xs font-mono font-bold tracking-widest transition-all ${tab === t ? 'bg-lime-400 text-black' : 'text-zinc-400 hover:text-white'}`}>
+                  <button key={t} onClick={() => { setTab(t); resetForm(); }} className={`flex-1 flex items-center justify-center gap-1.5 py-2 rounded-lg text-xs font-mono font-bold tracking-widest transition-all ${tab === t ? 'bg-white text-black' : 'text-zinc-400 hover:text-white'}`}>
                     {t === 'login' ? <><LogIn size={12} />LOG IN</> : <><UserPlus size={12} />REGISTER</>}
                   </button>
                 ))}
@@ -66,7 +66,7 @@ export function AuthModal({ isOpen, onClose }: AuthModalProps) {
                 <div className="relative"><Mail size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-zinc-500" /><input type="email" placeholder="Email" value={email} onChange={e => setEmail(e.target.value)} className="w-full pl-9 pr-4 py-2.5 bg-zinc-900 border border-zinc-700 rounded-xl text-sm text-white placeholder:text-zinc-500 focus:outline-none transition-colors font-mono" onFocus={e => e.currentTarget.style.borderColor = '#7700ff'} onBlur={e => e.currentTarget.style.borderColor = ''} /></div>
                 <div className="relative"><Lock size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-zinc-500" /><input type={showPass ? 'text' : 'password'} placeholder="Password" value={password} onChange={e => setPassword(e.target.value)} onKeyDown={e => e.key === 'Enter' && handleSubmit()} className="w-full pl-9 pr-10 py-2.5 bg-zinc-900 border border-zinc-700 rounded-xl text-sm text-white placeholder:text-zinc-500 focus:outline-none transition-colors font-mono" onFocus={e => e.currentTarget.style.borderColor = '#7700ff'} onBlur={e => e.currentTarget.style.borderColor = ''} /><button type="button" onClick={() => setShowPass(!showPass)} className="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-500 hover:text-white">{showPass ? <EyeOff size={14} /> : <Eye size={14} />}</button></div>
                 {error && <p className="text-red-400 text-xs text-center py-2 px-3 bg-red-400/10 rounded-lg border border-red-400/20" style={{ fontFamily: "'Koulen', sans-serif" }}>{error}</p>}
-                <button onClick={handleSubmit} disabled={busy} className="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl hover:opacity-90 text-black text-sm font-mono font-black tracking-widest transition-colors disabled:opacity-50 mt-1" style={{ backgroundColor: '#7700ff' }}>
+                <button onClick={handleSubmit} disabled={busy} className="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl hover:opacity-90 text-black text-sm font-mono font-black tracking-widest transition-colors disabled:opacity-50 mt-1" style={{ backgroundColor: '#fcfcfc' }}>
                   {busy ? <span className="w-4 h-4 border-2 border-black/30 border-t-black rounded-full animate-spin" /> : tab === 'login' ? <><LogIn size={14} />LOG IN</> : <><UserPlus size={14} />CREATE ACCOUNT</>}
                 </button>
               </div>
