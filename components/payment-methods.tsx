@@ -35,23 +35,23 @@ const PAYMENT_METHODS = [
 
 export function PaymentMethods() {
   return (
-    <section className="py-10 sm:py-14 px-3 sm:px-4 lg:px-6">
+    <section className="py-8 sm:py-10 lg:py-14 px-3 sm:px-4 lg:px-6">
       {/* Koulen font for Khmer */}
       <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet" />
 
       <div className="max-w-6xl mx-auto text-center">
-<div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#7700ff]/30 bg-[#7700ff]/5 text-[#7700ff] text-xs font-semibold tracking-wide mb-5">
-  <CreditCard className="w-3.5 h-3.5" />
-  PAYMENTS SUPPORTED
-</div>
+        <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1 sm:py-1.5 rounded-full border border-[#7700ff]/30 bg-[#7700ff]/5 text-[#7700ff] text-[10px] sm:text-xs font-semibold tracking-wide mb-4 sm:mb-5">
+          <CreditCard className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
+          PAYMENTS SUPPORTED
+        </div>
 
         <h2
-          className="text-xl sm:text-2xl lg:text-3xl font-bold text-foreground mb-2"
+          className="text-lg sm:text-xl lg:text-3xl font-bold text-foreground mb-2 px-2"
           style={{ fontFamily: "'Koulen', sans-serif" }}
         >
           ទទួលយកការទូទាត់ប្រាក់ពីគ្រប់ធនាគារធំៗនៅក្នុងប្រទេសកម្ពុជា!
         </h2>
-        <p className="text-muted-foreground text-xs sm:text-sm mb-7">
+        <p className="text-muted-foreground text-[11px] sm:text-xs lg:text-sm mb-6 sm:mb-7 px-2">
           One QR. Every wallet. Powered by Bakong KHQR &amp; ABA PayWay.
         </p>
 
@@ -64,7 +64,7 @@ export function PaymentMethods() {
           }}
         >
           <div
-            className="flex gap-3 w-max"
+            className="flex gap-2 sm:gap-3 w-max"
             style={{ animation: 'marquee-slide 18s linear infinite' }}
             onMouseEnter={(e) => (e.currentTarget.style.animationPlayState = 'paused')}
             onMouseLeave={(e) => (e.currentTarget.style.animationPlayState = 'running')}
@@ -72,14 +72,12 @@ export function PaymentMethods() {
             {[...PAYMENT_METHODS, ...PAYMENT_METHODS].map(({ name, logo }, i) => (
               <div
                 key={`${name}-${i}`}
-                className="flex items-center gap-2.5 px-4 py-2.5 rounded-xl bg-zinc-900/80 border border-purple-500/20 hover:border-lime-400/40 transition-colors flex-shrink-0"
+                className="flex items-center gap-1.5 sm:gap-2.5 px-2.5 sm:px-4 py-1.5 sm:py-2.5 rounded-lg sm:rounded-xl bg-zinc-900/80 border border-purple-500/20 hover:border-lime-400/40 transition-colors flex-shrink-0"
               >
                 <img
                   src={logo}
                   alt={name}
-                  width={36}
-                  height={36}
-                  className="rounded-lg object-contain flex-shrink-0"
+                  className="rounded-md sm:rounded-lg object-contain flex-shrink-0 w-6 h-6 sm:w-9 sm:h-9"
                   loading="lazy"
                   onError={(e) => {
                     e.currentTarget.onerror = null;
@@ -94,7 +92,7 @@ export function PaymentMethods() {
                       );
                   }}
                 />
-                <span className="text-sm font-medium text-white whitespace-nowrap">{name}</span>
+                <span className="text-xs sm:text-sm font-medium text-white whitespace-nowrap">{name}</span>
               </div>
             ))}
           </div>

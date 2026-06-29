@@ -43,7 +43,7 @@ export function Navbar() {
                 </div></>
               )}
             </div>
-            <button onClick={() => setModalOpen(true)} className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-mono font-bold tracking-widest transition-all ${user ? 'border border-lime-400/40 text-lime-400 hover:bg-lime-400/10' : 'bg-foreground text-background hover:opacity-90'}`}>
+            <button onClick={() => setModalOpen(true)} className={`flex items-center gap-1 sm:gap-1.5 px-2 sm:px-3 py-1 sm:py-1.5 rounded-md text-[10px] sm:text-xs font-mono font-bold tracking-widest transition-all whitespace-nowrap ${user ? 'border border-lime-400/40 text-lime-400 hover:bg-lime-400/10' : 'bg-foreground text-background hover:opacity-90'}`}>
               {user ? <><User size={12} /><span className="hidden sm:inline max-w-[80px] truncate">{userProfile?.displayName ?? user.displayName ?? 'USER'}</span></> : <><LogIn size={12} />{t.login}</>}
             </button>
           </div>
