@@ -124,7 +124,7 @@ const FOOTER_INFO = [
   },
   {
     title: 'Payment',
-    body: 'We support ABA Mobile Banking with instant QR code payment processing.',
+    body: 'Scan one QR for all banks, including ABA, ACLEDA, and other institutions.',
   },
   {
     title: 'Support',
