@@ -109,7 +109,7 @@ const MOCK_SONGS = [
     releaseDate: 'JUNE 2026',
     type: 'SINGLE, 1 SONG',
     duration: '5 MINUTES 00 SECONDS',
-    price: 0.25,
+    price: 0.00,
     coverUrl: '/lg2.png',
     audioUrl: '/music/beat-9.mp3', 
   },

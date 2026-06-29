@@ -4,7 +4,7 @@ import { Globe, User, LogIn, Music2 } from 'lucide-react';
 import { useAuth } from '@/context/AuthContext';
 import { AuthModal } from '@/components/AuthModal';
 const TRANSLATIONS = {
-  en: { brand: 'CHEATZLUKBEATS', login: 'LOG IN', langLabel: 'EN' },
+  en: { brand: 'CHEATZLUKBEATS.ONLINE', login: 'LOG IN', langLabel: 'EN' },
   kh: { brand: 'ចេតស្លូកប៊ីត', login: 'ចូលគណនី', langLabel: 'ខ្មែរ' },
 } as const;
 type Lang = keyof typeof TRANSLATIONS;
@@ -20,7 +20,11 @@ export function Navbar() {
       <nav className="fixed top-0 left-0 right-0 z-40 bg-background/90 backdrop-blur-md border-b border-border">
         <div className="max-w-6xl mx-auto px-3 sm:px-4 lg:px-6 h-14 sm:h-16 flex items-center justify-between gap-3">
           <a href="/" className="flex items-center gap-2 shrink-0">
-            <Music2 size={18} className="text-lime-400 hidden sm:block" />
+            <img 
+  src="/icon.png" 
+  alt="Music Icon" 
+  className="w-[30px] h-[30px] hidden sm:block" 
+/>
             <span className="font-black tracking-widest text-foreground text-sm sm:text-base font-mono" style={lang === 'kh' ? { fontFamily: "'Koulen', sans-serif" } : {}}>{t.brand}</span>
           </a>
           <div className="flex items-center gap-2">
