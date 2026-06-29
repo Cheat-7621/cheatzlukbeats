@@ -74,7 +74,7 @@ export function PurchaseModal({ isOpen, song, onClose }: PurchaseModalProps) {
           <p className="text-xs md:text-xs text-muted-foreground mb-2">Reference Number (Send with payment):</p>
           <div className="flex gap-2">
             <code className="flex-1 text-xs md:text-sm font-mono bg-background p-2 rounded text-accent break-all">
-              SOUNDMARKET-{song.id.toUpperCase()}
+              CHEATZLUKBEATS-{song.id.toUpperCase()}
             </code>
             <Button
               variant="ghost"
