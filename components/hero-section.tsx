@@ -74,7 +74,7 @@ export function HeroSection() {
           </div>
 
           <div className="mt-6 sm:mt-10 lg:mt-12 grid grid-cols-3 gap-2 sm:gap-4 lg:gap-6">
-            <div className="text-center p-1.5 sm:p-4 lg:p-0">
+            <div className="text-center p-1.5 sm:p-4 lg:p-5 border border-white/10 bg-white/[0.03] rounded-xl backdrop-blur-sm">
               <div className="text-base sm:text-2xl lg:text-4xl font-bold text-[#FFD700] mb-1 lg:mb-2 whitespace-nowrap">
                 100+
               </div>
@@ -82,7 +82,7 @@ export function HeroSection() {
               Tracks
               </p>
             </div>
-            <div className="text-center p-1.5 sm:p-4 lg:p-0">
+            <div className="text-center p-1.5 sm:p-4 lg:p-5 border border-white/10 bg-white/[0.03] rounded-xl backdrop-blur-sm">
               <div className="text-base sm:text-2xl lg:text-4xl font-bold text-[#FFD700] mb-1 lg:mb-2 whitespace-nowrap">
                 High Quality
               </div>
@@ -90,7 +90,7 @@ export function HeroSection() {
                Audio
               </p>
             </div>
-            <div className="text-center p-1.5 sm:p-4 lg:p-0">
+            <div className="text-center p-1.5 sm:p-4 lg:p-5 border border-white/10 bg-white/[0.03] rounded-xl backdrop-blur-sm">
               <div className="text-base sm:text-2xl lg:text-4xl font-bold text-[#FFD700] mb-1 lg:mb-2 whitespace-nowrap">
                QR
               </div>
