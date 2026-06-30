@@ -114,7 +114,7 @@ const MOCK_SONGS = [
     audioUrl: '/music/beat-9.mp3', 
   },
 
-  // ALBUMS-2
+  // ALBUMS-3
   {
     id: '010',
     number: '010',
@@ -134,7 +134,7 @@ const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-gold.png',
+    coverUrl: '/logo-red.png',
     audioUrl: '/music/beat-11.mp3', 
   },
     {
@@ -145,7 +145,7 @@ const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-gold.png',
+    coverUrl: '/logo-or.png',
     audioUrl: '/music/beat-12.mp3', 
   },
     {
@@ -156,7 +156,7 @@ const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-gold.png',
+    coverUrl: '/logo-tikbrak.png',
     audioUrl: '/music/beat-13.mp3', 
   },
   
@@ -168,7 +168,7 @@ const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-gold.png',
+    coverUrl: '/logo-slear.png',
     audioUrl: '/music/beat-14.mp3', 
   },
     {
@@ -179,7 +179,7 @@ const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-gold.png',
+    coverUrl: '/icon.png',
     audioUrl: '/music/beat-15.mp3', 
   },
     {
