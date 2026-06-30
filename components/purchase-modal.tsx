@@ -54,7 +54,7 @@ export function PurchaseModal({ isOpen, song, onClose }: PurchaseModalProps) {
 
         {/* Header */}
         <h2 className="text-xl md:text-2xl font-bold text-foreground mb-1 md:mb-2 pr-8">Complete Purchase</h2>
-        <p className="text-xs md:text-sm text-muted-foreground mb-4 md:mb-6">Scan one QR for all banks, including ABA, ACLEDA, and other institutions</p>
+        <p className="text-xs md:text-sm text-muted-foreground mb-4 md:mb-6">ស្កេន QR តែមួយ ប្រើបានគ្រប់ធនាគារ ដូចជា ABA, ACLEDA និងស្ថាប័នដទៃទៀត</p>
 
         {/* Song Info */}
         <div className="bg-muted rounded-lg p-3 md:p-4 mb-4 md:mb-6">
@@ -107,7 +107,7 @@ export function PurchaseModal({ isOpen, song, onClose }: PurchaseModalProps) {
             <li>Tap QR Code to scan this code</li>
             <li>Confirm payment details and proceed</li>
             <li>Include reference number in payment note</li> */}
-            <p>NOTE : Tap Done to send proof on Telegram for your download</p>
+            <p>NOTE : ចុច​លើ​ប៊ូតុង Done ដើម្បី​ផ្ញើ​ភស្តុតាង​ទៅ​កាន់ Telegram សម្រាប់​ការ​ទាញ​យក​របស់​អ្នក!</p>
         </div>
 
         {/* Buttons */}
