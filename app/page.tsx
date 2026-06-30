@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { Navbar } from '@/components/Navbar';
 import { HeroSection } from '@/components/hero-section';
 import { PaymentMethods } from '@/components/payment-methods';
@@ -222,24 +222,73 @@ const FOOTER_INFO = [
   },
 ];
 
+// ចំនួន Card ដែលបង្ហាញម្ដងៗពេល Scroll (Infinite Scroll Page Size)
+const PAGE_SIZE = 10;
+// រយៈពេល Loading UI បង្ហាញ (ms) មុននឹង Card ១០បន្ថែមលេចឡើង
+const LOADING_DELAY = 800;
+
 export default function Home() {
   const [selectedSong, setSelectedSong] = useState<(typeof MOCK_SONGS)[0] | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [playingSongId, setPlayingSongId] = useState<string | null>(null);
 
+  // ចំនួន Card ដែលកំពុងបង្ហាញ (ចាប់ផ្ដើម 10)
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  // State គ្រប់គ្រង Spinner "Loading..." ខាងក្រោម Card ចំនួន 10
+  const [isLoadingMore, setIsLoadingMore] = useState(false);
+
+  // Ref សម្រាប់ Sentinel div (មើលមិនឃើញ) ដែល IntersectionObserver Watch
+  const loaderRef = useRef<HTMLDivElement | null>(null);
+
+  const visibleSongs = MOCK_SONGS.slice(0, visibleCount);
+  const hasMore = visibleCount < MOCK_SONGS.length;
+
   const playingSong = MOCK_SONGS.find((s) => s.id === playingSongId) ?? null;
 
-  const handlePreview = (songId: string) => {
-    setPlayingSongId(songId);
-  };
+  // ពេល Sentinel (នៅខាងក្រោម Card ចុងក្រោយ) លេចចូល Viewport -> ចាប់ Loading
+  useEffect(() => {
+    if (!hasMore) return;
 
-  const handlePurchase = (songId: string) => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting && !isLoadingMore) {
+          setIsLoadingMore(true);
+        }
+      },
+      { threshold: 0.1 } // Trigger ពេល Sentinel ចូល Viewport ពិតប្រាកដ
+    );
+
+    const currentLoader = loaderRef.current;
+    if (currentLoader) observer.observe(currentLoader);
+
+    return () => {
+      if (currentLoader) observer.unobserve(currentLoader);
+    };
+  }, [hasMore, isLoadingMore]);
+
+  // ពេល isLoadingMore = true -> បង្ហាញ Spinner LOADING_DELAY ms រួចបន្ថែម Card 10
+  useEffect(() => {
+    if (!isLoadingMore) return;
+
+    const timer = setTimeout(() => {
+      setVisibleCount((prev) => Math.min(prev + PAGE_SIZE, MOCK_SONGS.length));
+      setIsLoadingMore(false);
+    }, LOADING_DELAY);
+
+    return () => clearTimeout(timer);
+  }, [isLoadingMore]);
+
+  const handlePreview = useCallback((songId: string) => {
+    setPlayingSongId(songId);
+  }, []);
+
+  const handlePurchase = useCallback((songId: string) => {
     const song = MOCK_SONGS.find((s) => s.id === songId);
     if (song) {
       setSelectedSong(song);
       setIsModalOpen(true);
     }
-  };
+  }, []);
 
   const handleCloseModal = () => {
     setIsModalOpen(false);
@@ -259,7 +308,7 @@ export default function Home() {
           </h2>
 
           <div className="space-y-2 sm:space-y-3 lg:space-y-4">
-            {MOCK_SONGS.map((song) => (
+            {visibleSongs.map((song) => (
               <SongCard
                 key={song.id}
                 {...song}
@@ -268,6 +317,17 @@ export default function Home() {
               />
             ))}
           </div>
+
+          {/* Sentinel (មើលមិនឃើញ, ខ្នាត 1px) — តាំងនៅខាងក្រោម Card ចុងក្រោយ ដើម្បីឲ្យ Observer ចាប់ Scroll */}
+          {hasMore && <div ref={loaderRef} className="h-1 w-full" />}
+
+          {/* Loading UI — បង្ហាញនៅខាងក្រោម Card ចំនួន 10 ពេល isLoadingMore = true */}
+          {isLoadingMore && (
+            <div className="flex flex-col items-center justify-center gap-2 py-8">
+              <div className="h-6 w-6 border-2 border-foreground/30 border-t-foreground rounded-full animate-spin" />
+              <span className="text-xs sm:text-sm text-muted-foreground">Loading...</span>
+            </div>
+          )}
 
           {/* Footer Info */}
           <div className="mt-8 sm:mt-12 lg:mt-16 pt-4 sm:pt-6 lg:pt-8 border-t border-border">
