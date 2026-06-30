@@ -113,7 +113,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-10.mp3', 
   },
   {
@@ -124,7 +124,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-11.mp3', 
   },
   {
@@ -135,7 +135,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-12.mp3', 
   },
   {
@@ -146,7 +146,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-13.mp3', 
   },
   {
@@ -157,7 +157,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-14.mp3', 
   },
   {
@@ -168,7 +168,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-15.mp3', 
   },
   {
@@ -179,7 +179,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-16.mp3', 
   },
   {
@@ -190,7 +190,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-17.mp3', 
   },
     {
@@ -201,7 +201,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-18.mp3', 
   },
     {
@@ -212,7 +212,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-19.mp3', 
   },
     {
@@ -223,7 +223,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-20.mp3', 
   },
     {
@@ -234,7 +234,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-21.mp3', 
   },
     {
@@ -245,7 +245,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-22.mp3', 
   },
     {
@@ -256,7 +256,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-23.mp3', 
   },
     {
@@ -267,7 +267,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-24.mp3', 
   },
     {
@@ -278,7 +278,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-25.mp3', 
   },
     {
@@ -289,7 +289,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-26.mp3', 
   },
     {
@@ -300,7 +300,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-27.mp3', 
   },
     {
@@ -311,7 +311,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-28.mp3', 
   },
     {
@@ -322,7 +322,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-29.mp3', 
   },
     {
@@ -333,7 +333,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-30.mp3', 
   },
     {
@@ -344,7 +344,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-31.mp3', 
   },
     {
@@ -355,7 +355,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-32.mp3', 
   },
     {
@@ -366,7 +366,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-33.mp3', 
   },
     {
@@ -377,7 +377,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-34.mp3', 
   },
     {
@@ -388,7 +388,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-35.mp3', 
   },
     {
@@ -399,7 +399,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-36.mp3', 
   },
     {
@@ -410,7 +410,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-37.mp3', 
   },
     {
@@ -421,7 +421,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-38.mp3', 
   },
     {
@@ -432,7 +432,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-39.mp3', 
   },
     {
@@ -443,7 +443,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-40.mp3', 
   },
     {
@@ -454,7 +454,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-41.mp3', 
   },
     {
@@ -465,7 +465,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-42.mp3', 
   },
     {
@@ -476,7 +476,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-43.mp3', 
   },
     {
@@ -487,7 +487,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-44.mp3', 
   },
     {
@@ -498,7 +498,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-45.mp3', 
   },
     {
@@ -509,7 +509,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-46.mp3', 
   },
     {
@@ -520,7 +520,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-47.mp3', 
   },
     {
@@ -531,7 +531,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-48.mp3', 
   },
     {
@@ -542,7 +542,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-49.mp3', 
   },
     {
@@ -553,7 +553,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-50.mp3', 
   },
     {
@@ -564,7 +564,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-51.mp3', 
   },
     {
@@ -575,7 +575,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-52.mp3', 
   },
     {
@@ -586,7 +586,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-53.mp3', 
   },
     {
@@ -597,7 +597,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-54.mp3', 
   },
     {
@@ -608,7 +608,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-55.mp3', 
   },
     {
@@ -619,7 +619,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-56.mp3', 
   },
     {
@@ -630,7 +630,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-57.mp3', 
   },
     {
@@ -641,7 +641,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-58.mp3', 
   },
     {
@@ -652,7 +652,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-59.mp3', 
   },
     {
@@ -663,7 +663,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-60.mp3', 
   },
     {
@@ -674,7 +674,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-61.mp3', 
   },
     {
@@ -685,7 +685,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-62.mp3', 
   },
     {
@@ -696,7 +696,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-63.mp3', 
   },
     {
@@ -707,7 +707,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-64.mp3', 
   },
     {
@@ -718,7 +718,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-65.mp3', 
   },
     {
@@ -729,7 +729,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-66.mp3', 
   },
     {
@@ -740,7 +740,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-67.mp3', 
   },
     {
@@ -751,7 +751,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-68.mp3', 
   },
     {
@@ -762,7 +762,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-69.mp3', 
   },
     {
@@ -773,7 +773,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-70.mp3', 
   },
     {
@@ -784,7 +784,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-71.mp3', 
   },
     {
@@ -795,7 +795,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-72.mp3', 
   },
     {
@@ -806,7 +806,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-73.mp3', 
   },
     {
@@ -817,7 +817,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-74.mp3', 
   },
     {
@@ -828,7 +828,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-75.mp3', 
   },
     {
@@ -839,7 +839,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-76.mp3', 
   },
     {
@@ -850,7 +850,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-77.mp3', 
   },
     {
@@ -861,7 +861,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-78.mp3', 
   },
     {
@@ -872,7 +872,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-79.mp3', 
   },
     {
@@ -883,7 +883,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-80.mp3', 
   },
     {
@@ -894,7 +894,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-81.mp3', 
   },
     {
@@ -905,7 +905,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-82.mp3', 
   },
     {
@@ -916,7 +916,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-83.mp3', 
   },
     {
@@ -927,7 +927,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-84.mp3', 
   },
     {
@@ -938,7 +938,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-85.mp3', 
   },
     {
@@ -949,7 +949,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-86.mp3', 
   },
     {
@@ -960,7 +960,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-87.mp3', 
   },
     {
@@ -971,7 +971,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-88.mp3', 
   },
     {
@@ -982,7 +982,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-89.mp3', 
   },
     {
@@ -993,7 +993,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-90.mp3', 
   },
     {
@@ -1004,7 +1004,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-91.mp3', 
   },
     {
@@ -1015,7 +1015,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-92.mp3', 
   },
     {
@@ -1026,7 +1026,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-93.mp3', 
   },
     {
@@ -1037,7 +1037,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-94.mp3', 
   },
     {
@@ -1048,7 +1048,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-95.mp3', 
   },
     {
@@ -1059,7 +1059,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-96.mp3', 
   },
     {
@@ -1070,7 +1070,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-97.mp3', 
   },
     {
@@ -1081,7 +1081,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-98.mp3', 
   },
     {
@@ -1092,7 +1092,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-99.mp3', 
   },
     {
@@ -1103,7 +1103,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-100.mp3', 
   },
     {
@@ -1114,7 +1114,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-101.mp3', 
   },
     {
@@ -1125,7 +1125,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-102.mp3', 
   },
     {
@@ -1136,7 +1136,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-103.mp3', 
   },
     {
@@ -1147,7 +1147,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-104.mp3', 
   },
     {
@@ -1158,7 +1158,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-105.mp3', 
   },
     {
@@ -1169,7 +1169,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-106.mp3', 
   },
     {
@@ -1180,7 +1180,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-107.mp3', 
   },
     {
@@ -1191,7 +1191,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-108.mp3', 
   },
     {
@@ -1202,7 +1202,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-109.mp3', 
   },
     {
@@ -1213,7 +1213,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-110.mp3', 
   },
     {
@@ -1224,7 +1224,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-111.mp3', 
   },
     {
@@ -1235,7 +1235,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-112.mp3', 
   },
     {
@@ -1246,7 +1246,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-113.mp3', 
   },
     {
@@ -1257,7 +1257,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-114.mp3', 
   },
     {
@@ -1268,7 +1268,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-115.mp3', 
   },
     {
@@ -1279,7 +1279,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-116.mp3', 
   },
     {
@@ -1290,7 +1290,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-117.mp3', 
   },
     {
@@ -1301,7 +1301,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-118.mp3', 
   },
     {
@@ -1312,7 +1312,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-119.mp3', 
   },
     {
@@ -1323,7 +1323,7 @@ export const MOCK_SONGS = [
     type: 'SINGLE, 1 SONG',
     duration: '0 MINUTES 00 SECONDS',
     price: 0.99,
-    coverUrl: '/logo-tikbrak.png',
+    coverUrl: '/coming-soon.png',
     audioUrl: '/music/beat-120.mp3', 
   },
 
