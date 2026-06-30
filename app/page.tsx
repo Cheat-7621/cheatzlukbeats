@@ -301,8 +301,8 @@ export default function Home() {
       <HeroSection />
       <PaymentMethods />
 
-      <section className="py-6 sm:py-12 lg:py-20 px-3 sm:px-4 lg:px-6 pb-24 sm:pb-20 lg:pb-12">
-        <div className="max-w-6xl mx-auto">
+      <section className="py-6 sm:py-12 lg:py-20 px-3 sm:px-4 lg:px-3 pb-24 sm:pb-20 lg:pb-12">
+        <div className="max-w-7xl mx-auto">
           <h2 className="text-xl sm:text-2xl lg:text-4xl font-bold text-foreground mb-4 sm:mb-6 lg:mb-8 text-balance">
             ARCHIVE RESOURCES
           </h2>

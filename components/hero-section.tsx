@@ -75,7 +75,7 @@ export function HeroSection() {
 
           <div className="mt-6 sm:mt-10 lg:mt-12 grid grid-cols-3 gap-2 sm:gap-4 lg:gap-6">
             <div className="text-center p-1.5 sm:p-4 lg:p-0">
-              <div className="text-base sm:text-2xl lg:text-4xl font-bold text-[#ccff00] mb-1 lg:mb-2 whitespace-nowrap">
+              <div className="text-base sm:text-2xl lg:text-4xl font-bold text-[#FFD700] mb-1 lg:mb-2 whitespace-nowrap">
                 100+
               </div>
               <p className="text-[10px] sm:text-sm lg:text-base text-gray-300 leading-tight">
@@ -83,7 +83,7 @@ export function HeroSection() {
               </p>
             </div>
             <div className="text-center p-1.5 sm:p-4 lg:p-0">
-              <div className="text-base sm:text-2xl lg:text-4xl font-bold text-[#ccff00] mb-1 lg:mb-2 whitespace-nowrap">
+              <div className="text-base sm:text-2xl lg:text-4xl font-bold text-[#FFD700] mb-1 lg:mb-2 whitespace-nowrap">
                 High Quality
               </div>
               <p className="text-[10px] sm:text-sm lg:text-base text-gray-300 leading-tight">
@@ -91,7 +91,7 @@ export function HeroSection() {
               </p>
             </div>
             <div className="text-center p-1.5 sm:p-4 lg:p-0">
-              <div className="text-base sm:text-2xl lg:text-4xl font-bold text-[#ccff00] mb-1 lg:mb-2 whitespace-nowrap">
+              <div className="text-base sm:text-2xl lg:text-4xl font-bold text-[#FFD700] mb-1 lg:mb-2 whitespace-nowrap">
                QR
               </div>
               <p className="text-[10px] sm:text-sm lg:text-base text-gray-300 leading-tight">

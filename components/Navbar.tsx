@@ -12,12 +12,12 @@ export function Navbar() {
     <>
       <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet" />
       <nav className="fixed top-0 left-0 right-0 z-40 bg-background/90 backdrop-blur-md border-b border-border">
-        <div className="max-w-6xl mx-auto px-3 sm:px-4 lg:px-6 h-14 sm:h-16 flex items-center justify-between gap-3">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 h-14 sm:h-16 flex items-center justify-between gap-3">
           <a href="/" className="flex items-center gap-2 shrink min-w-0">
             <img 
-  src="/icon.png" 
+  src="/logo-gold.png" 
   alt="Music Icon" 
-  className="w-[30px] h-[30px] hidden sm:block" 
+  className="w-[50px] h-[50px] hidden sm:block" 
 />
             <span className="font-black tracking-widest text-foreground text-sm sm:text-base font-mono whitespace-nowrap">CHEATZLUKBEATS.ONLINE</span>
           </a>
