@@ -12,6 +12,7 @@ interface SongCardProps {
   type: string;
   duration: string;
   price: number;
+  priceLabel?: string;
   coverUrl: string;
   onPreview: (songId: string) => void;
   onPurchase: (songId: string) => void;
@@ -25,6 +26,7 @@ export function SongCard({
   type,
   duration,
   price,
+  priceLabel,
   coverUrl,
   onPreview,
   onPurchase,
@@ -69,14 +71,20 @@ export function SongCard({
           </div>
           <div>
             <p className="text-[10px] sm:text-xs text-muted-foreground uppercase tracking-tight">Price</p>
-            <p className="text-[11px] sm:text-xs lg:text-xs text-[#7700ff] font-bold">${price.toFixed(2)}</p>
+            <p className="text-[11px] sm:text-xs lg:text-xs text-[#7700ff] font-bold">
+              {priceLabel && <span className="text-[#FFD700] mr-1">{priceLabel}</span>}
+              ${price.toFixed(2)}
+            </p>
           </div>
         </div>
         {/* Mobile compact view */}
         <div className="sm:hidden flex items-center gap-2 text-[10px]">
           <span className="text-muted-foreground">{releaseDate}</span>
           <span className="text-muted-foreground">•</span>
-          <span className="text-[#7700ff] font-bold">${price.toFixed(2)}</span>
+          <span className="text-[#7700ff] font-bold">
+            {priceLabel && <span className="text-[#FFD700] mr-1">{priceLabel}</span>}
+            ${price.toFixed(2)}
+          </span>
         </div>
       </div>
 
