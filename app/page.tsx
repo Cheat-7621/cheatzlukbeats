@@ -24,9 +24,7 @@ const FOOTER_INFO = [
   },
 ];
 
-// ចំនួន Card ដែលបង្ហាញម្ដងៗពេល Scroll (Infinite Scroll Page Size)
 const PAGE_SIZE = 10;
-// រយៈពេល Loading UI បង្ហាញ (ms) មុននឹង Card ១០បន្ថែមលេចឡើង
 const LOADING_DELAY = 800;
 
 export default function Home() {
@@ -34,12 +32,9 @@ export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [playingSongId, setPlayingSongId] = useState<string | null>(null);
 
-  // ចំនួន Card ដែលកំពុងបង្ហាញ (ចាប់ផ្ដើម 10)
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
-  // State គ្រប់គ្រង Spinner "Loading..." ខាងក្រោម Card ចំនួន 10
   const [isLoadingMore, setIsLoadingMore] = useState(false);
 
-  // Ref សម្រាប់ Sentinel div (មើលមិនឃើញ) ដែល IntersectionObserver Watch
   const loaderRef = useRef<HTMLDivElement | null>(null);
 
   const visibleSongs = MOCK_SONGS.slice(0, visibleCount);
@@ -47,7 +42,6 @@ export default function Home() {
 
   const playingSong = MOCK_SONGS.find((s) => s.id === playingSongId) ?? null;
 
-  // ពេល Sentinel (នៅខាងក្រោម Card ចុងក្រោយ) លេចចូល Viewport -> ចាប់ Loading
   useEffect(() => {
     if (!hasMore) return;
 
@@ -57,7 +51,7 @@ export default function Home() {
           setIsLoadingMore(true);
         }
       },
-      { threshold: 0.1 } // Trigger ពេល Sentinel ចូល Viewport ពិតប្រាកដ
+      { threshold: 0.1 } 
     );
 
     const currentLoader = loaderRef.current;
@@ -68,7 +62,7 @@ export default function Home() {
     };
   }, [hasMore, isLoadingMore]);
 
-  // ពេល isLoadingMore = true -> បង្ហាញ Spinner LOADING_DELAY ms រួចបន្ថែម Card 10
+
   useEffect(() => {
     if (!isLoadingMore) return;
 
@@ -103,7 +97,11 @@ export default function Home() {
       <HeroSection />
       <PaymentMethods />
 
-      <section className="py-6 sm:py-12 lg:py-20 px-3 sm:px-4 lg:px-3 pb-24 sm:pb-20 lg:pb-12">
+      {/* id="beats"  */}
+      <section
+        id="beats"
+        className="scroll-mt-16 py-6 sm:py-12 lg:py-20 px-3 sm:px-4 lg:px-3 pb-24 sm:pb-20 lg:pb-12"
+      >
         <div className="max-w-7xl mx-auto">
           <h2 className="text-xl sm:text-2xl lg:text-4xl font-bold text-foreground mb-4 sm:mb-6 lg:mb-8 text-balance">
             ARCHIVE RESOURCES
@@ -120,10 +118,8 @@ export default function Home() {
             ))}
           </div>
 
-          {/* Sentinel (មើលមិនឃើញ, ខ្នាត 1px) — តាំងនៅខាងក្រោម Card ចុងក្រោយ ដើម្បីឲ្យ Observer ចាប់ Scroll */}
           {hasMore && <div ref={loaderRef} className="h-1 w-full" />}
 
-          {/* Loading UI — បង្ហាញនៅខាងក្រោម Card ចំនួន 10 ពេល isLoadingMore = true */}
           {isLoadingMore && (
             <div className="flex flex-col items-center justify-center gap-2 py-8">
               <div className="h-6 w-6 border-2 border-foreground/30 border-t-foreground rounded-full animate-spin" />
