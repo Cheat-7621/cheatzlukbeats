@@ -93,7 +93,7 @@ export function HeroSection() {
       <section
         className="relative w-full flex flex-col justify-between gap-4 sm:gap-0 min-h-0 sm:min-h-[100svh] overflow-hidden text-[#111]"
         style={{
-          background: 'linear-gradient(180deg, #e4e4e0 0%, #d8d8d4 55%, #c4c4c0 100%)',
+          background: '#ffffff',
           paddingLeft: sidePad,
           paddingRight: sidePad,
           paddingTop: 'clamp(1rem, 4vw, 4rem)',
@@ -168,7 +168,7 @@ export function HeroSection() {
               className="mist-b absolute left-[-10%] right-[-10%] bottom-[-4%] h-[36%] blur-2xl pointer-events-none"
               style={{
                 background:
-                  'radial-gradient(ellipse at 60% 50%, rgba(235,235,230,0.95) 0%, rgba(235,235,230,0) 70%)',
+                  'radial-gradient(ellipse at 60% 50%, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0) 70%)',
                 animation: 'mistDriftB 18s ease-in-out infinite',
               }}
             />
